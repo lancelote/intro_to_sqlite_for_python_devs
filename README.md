@@ -8,5 +8,6 @@ Code from "Introduction to SQLite Databases for Python Programming" course by Jo
     - [Create SQLite Connection](src/chapter1/create_sqlite_connection.py)
     - [Create a Database Table](src/chapter1/create_db_table.py)
     - [Insert One Record into the Table](src/chapter1/insert_one_record_into_table.py)
+    - [Insert Many Records into the Table](src/chapter1/insert_many_records_into_table.py)
 - [ ] Chapter 2: Using SQLite with Python
 - [ ] Chapter 3: Build a Sample Database App with Python
