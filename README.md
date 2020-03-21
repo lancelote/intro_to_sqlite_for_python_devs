@@ -16,4 +16,5 @@ Code from "Introduction to SQLite Databases for Python Programming" course by Jo
     - [Where Clause](src/chapter2/where_clause.py)
     - [Update Records](src/chapter2/update_records.py)
     - [Delete Records](src/chapter2/delete_records.py)
+    - [Order Results by](src/chapter2/order_results_by.py)
 - [ ] Chapter 3: Build a Sample Database App with Python
