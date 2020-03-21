@@ -14,4 +14,5 @@ Code from "Introduction to SQLite Databases for Python Programming" course by Jo
     - [Format Results](src/chapter2/format_results.py)
     - [Primary Key ID](src/chapter2/primary_key_id.py)
     - [Where Clause](src/chapter2/where_clause.py)
+    - [Update Records](src/chapter2/update_records.py)
 - [ ] Chapter 3: Build a Sample Database App with Python
