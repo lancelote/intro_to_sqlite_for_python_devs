@@ -23,3 +23,13 @@ def add_one(first: str, last: str, email: str) -> None:
 
     connection.commit()
     connection.close()
+
+
+def delete_one(pk: int) -> None:
+    connection = sqlite3.connect('dbs/customer.db')
+    cursor = connection.cursor()
+
+    cursor.execute(f"DELETE FROM customers WHERE ROWID = '{pk}'")
+
+    connection.commit()
+    connection.close()

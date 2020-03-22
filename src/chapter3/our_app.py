@@ -2,7 +2,7 @@ import database
 
 
 def main() -> None:
-    database.add_one('Laura', 'Smith', 'laura@smith.com')
+    database.delete_one(4)
     database.show_all()
 
 
