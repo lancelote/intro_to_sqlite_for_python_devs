@@ -18,4 +18,5 @@ Code from "Introduction to SQLite Databases for Python Programming" course by Jo
     - [Delete Records](src/chapter2/delete_records.py)
     - [Order Results by](src/chapter2/order_results_by.py)
     - [And/Or](src/chapter2/and_or.py)
+    - [Limiting Results](src/chapter2/limiting_results.py)
 - [ ] Chapter 3: Build a Sample Database App with Python
