@@ -2,11 +2,7 @@ import database
 
 
 def main() -> None:
-    database.add_many([
-        ('Brenda', 'Smitherton', 'brenda@smitherton.com'),
-        ('Joshua', 'Raintree', 'joshua@raintree.com'),
-    ])
-    database.show_all()
+    database.email_lookup('brenda@smitherton.com')
 
 
 if __name__ == '__main__':

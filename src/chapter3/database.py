@@ -44,3 +44,17 @@ def add_many(items: List[Tuple]) -> None:
 
     connection.commit()
     connection.close()
+
+
+def email_lookup(email: str) -> None:
+    connection = sqlite3.connect('dbs/customer.db')
+    cursor = connection.cursor()
+
+    cursor.execute(f"SELECT * FROM customers WHERE email_address = '{email}'")
+
+    items = cursor.fetchall()
+    for item in items:
+        print(item)
+
+    connection.commit()
+    connection.close()
