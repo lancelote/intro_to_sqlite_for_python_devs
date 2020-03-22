@@ -21,3 +21,4 @@ Code from "Introduction to SQLite Databases for Python Programming" course by Jo
     - [Limiting Results](src/chapter2/limiting_results.py)
     - [Drop Table](src/chapter2/drop_table.py)
 - [ ] Chapter 3: Build a Sample Database App with Python
+    - [Sample App](src/chapter3/our_app.py)
