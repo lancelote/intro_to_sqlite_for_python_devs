@@ -5,7 +5,7 @@ Code from "Introduction to SQLite Databases for Python Programming" course by Jo
 ## TOC
 
 - [x] Chapter 1: Installation
-- [ ] Chapter 2: Using SQLite with Python
+- [x] Chapter 2: Using SQLite with Python
     - [Create SQLite Connection](src/chapter2/create_sqlite_connection.py)
     - [Create a Database Table](src/chapter2/create_db_table.py)
     - [Insert One Record into the Table](src/chapter2/insert_one_record_into_table.py)
@@ -19,4 +19,5 @@ Code from "Introduction to SQLite Databases for Python Programming" course by Jo
     - [Order Results by](src/chapter2/order_results_by.py)
     - [And/Or](src/chapter2/and_or.py)
     - [Limiting Results](src/chapter2/limiting_results.py)
+    - [Drop Table](src/chapter2/drop_table.py)
 - [ ] Chapter 3: Build a Sample Database App with Python
