@@ -2,7 +2,10 @@ import database
 
 
 def main() -> None:
-    database.delete_one(4)
+    database.add_many([
+        ('Brenda', 'Smitherton', 'brenda@smitherton.com'),
+        ('Joshua', 'Raintree', 'joshua@raintree.com'),
+    ])
     database.show_all()
 
 

@@ -1,4 +1,5 @@
 import sqlite3
+from typing import List, Tuple
 
 
 def show_all() -> None:
@@ -30,6 +31,16 @@ def delete_one(pk: int) -> None:
     cursor = connection.cursor()
 
     cursor.execute(f"DELETE FROM customers WHERE ROWID = '{pk}'")
+
+    connection.commit()
+    connection.close()
+
+
+def add_many(items: List[Tuple]) -> None:
+    connection = sqlite3.connect('dbs/customer.db')
+    cursor = connection.cursor()
+
+    cursor.executemany("INSERT INTO customers VALUES (?,?,?)", items)
 
     connection.commit()
     connection.close()
