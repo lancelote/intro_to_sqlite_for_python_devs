@@ -13,3 +13,13 @@ def show_all() -> None:
 
     connection.commit()
     connection.close()
+
+
+def add_one(first: str, last: str, email: str) -> None:
+    connection = sqlite3.connect('dbs/customer.db')
+    cursor = connection.cursor()
+
+    cursor.execute("INSERT INTO customers VALUES (?,?,?)", (first, last, email))
+
+    connection.commit()
+    connection.close()
